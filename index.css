@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Alinea el contenido del body al centro */
+    margin: 0;
+    background-color: #ccc;
+}
+
+/* Encabezado */
+.navar {
+    background-color: mediumorchid;
+    color: #ccc;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos del header */
+    padding: 7px 0; /* Espaciado interno superior e inferior */
+}
+
+/* Titulo */
+.titulo {
+    text-align: center;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 90%; /* Utiliza el 90% del ancho del viewport */
+    max-width: 500px; /* Máximo ancho de 500px */
+    margin: 50px auto; /* Centra el contenedor vertical y horizontalmente */
+}
+
+/* Campo de texto */
+.campo-texto {
+    width: 100%;
+    padding: 70px; /* Reduce el padding para hacerlo más compacto */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Asegura que padding no aumente el ancho */
+    font-size: 16px; /* Ajusta el tamaño del texto */
+}
+
+/* Botón de acción */
+.boton-accion {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: violet;
+    color: white;
+    margin: 10px 0; /* Espaciado alrededor del botón */
+}
+
+.boton-accion:hover {
+    background-color: purple;
+}
+
+/* Área de texto */
+.area-texto {
+    margin-top: 20px;
+    padding: 17px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
